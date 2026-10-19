@@ -1,0 +1,15 @@
+div.property-image--container {
+    padding: 10px;
+    background: white;
+    box-sizing: border-box;
+    resize: horizontal;
+    border: 1px dashed;
+    overflow: auto;
+    max-width: 100%;
+    height: calc(100vh - 16px);
+}
+  
+div.property-image--content {
+    width: 100%;
+    padding-bottom: 75%;
+}
