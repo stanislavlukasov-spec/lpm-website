@@ -1,0 +1,106 @@
+.container-flex {
+    display: flex;
+}
+
+.container-flex-center {
+    display: flex;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+
+.filter-icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 0.5rem;
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+}
+
+.filters-container--hero {
+    height: 4.625rem;
+    background: white;
+    margin-bottom: 2rem;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 0 0 2rem;
+    border-radius: 3rem;
+    text-align: left; 
+    filter: drop-shadow(0 0.0875rem 0.275rem #B0B0B0);
+}
+
+.dynamic-filters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dynamic-filters .filters-container--hero {
+    filter: drop-shadow(0 0.0875rem 0.275rem #B0B0B0);
+}
+
+.add-filters-button {
+    padding: 1rem;
+    border-radius: 3rem;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.add-filters-button > span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    max-width: 50%;
+    margin-right: auto;
+}
+
+.filters-button-chip .MuiChip-root {
+    width: 3rem;
+}
+
+.filters-button-chip .MuiChip-label {
+    display: none;
+}
+
+.add-filters-button .MuiSvgIcon-root {
+    margin: 0;
+    cursor: pointer;
+}
+
+.filters-button-delete .MuiChip-label{
+    overflow: initial;
+    text-overflow: initial;
+    white-space: inherit;
+    padding-right: 0.5rem !important;
+}
+
+.filters-button-delete .MuiSvgIcon-root {
+    margin-right: 0.5rem;
+}
+
+.modal-content-container--40rem {
+    max-width: 40rem;
+}
+
+.favourite-filters {
+    width: 100%;
+    overflow: scroll;
+    position: relative;
+    min-height: 2rem;
+}
+
+.favourite-filters .favourite-filters--content {
+    display: flex;
+    padding: 1rem 0;
+}
+
+.icon {
+    font-size: 1.8rem;
+    margin-right: 0.5rem;
+}

@@ -1,0 +1,39 @@
+.footer {
+    background: #F7F7F7;
+    width: 100%;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footerContent {
+    display: grid;
+    margin-top: 2rem;
+    grid-column-gap: 1rem;
+    grid-row-gap: 2rem;
+}
+
+.footerContent p {
+    cursor: pointer;
+}
+
+.footer-lg {
+    padding: 4rem 0;
+}
+
+.footer-lg .footerContent {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-xs .footerContent {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footer-sm .footerContent {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footerRights {
+    margin: auto;
+    text-align: center;
+    margin-top: 2rem;
+}

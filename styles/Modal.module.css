@@ -1,0 +1,21 @@
+.react-responsive-modal-modal {
+    display: block !important;
+    min-width: 30vw;
+    min-height: 20vh;
+    border-radius: 0.5rem;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.react-responsive-modal-closeButton svg {
+    fill: rgb(85, 84, 84);
+}
+
+.react-responsive-modal-closeButton {
+    outline: none;
+}
+
+.modal-content {
+    width: 100%;
+    max-width: 40rem;
+}

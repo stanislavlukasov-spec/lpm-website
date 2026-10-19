@@ -1,0 +1,68 @@
+.popular-locations {
+    display: grid;
+    margin: 2rem 0;
+}
+
+.location-link {
+    cursor: pointer;
+    position: relative;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.popular-locations img {
+    border-radius: 1rem;
+}
+
+.popular-locations-xs {
+    display: block;
+}
+
+.popular-locations-xs .container-flex-center {
+    display: block;
+}
+
+.popular-locations-xs img {
+    width: 100%;
+}
+
+.popular-locations-sm img {
+    max-width: 100%;
+}
+
+.popular-locations-sm .container-flex-center {
+    display: block;
+}
+
+.popular-locations-lg, .popular-locations-sm {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+}
+
+.popular-locations-lg img {
+    width: 15rem;
+}
+
+.location-content {
+    padding: 1.5rem;
+    flex: 2;
+}
+
+.location-content-sm {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.location-image-container {
+    flex: 1;
+}
+
+.popular-locations .MuiPaper-root {
+    display: flex;
+    align-items: center;
+}

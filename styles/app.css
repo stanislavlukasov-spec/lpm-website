@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.MuiCardContent-root {
+    padding-bottom: 1rem !important;
+}
+
+div.container-flex {
+    display: flex;
+}
+
+div.container-flex-center {
+    display: flex;
+    align-items: center;
+}
+
+div.container-flex-center-center {
+    display: flex;
+    justify-content: center;
+}
+
+a.no-underline {
+    text-decoration: none;
+    color: inherit;
+}
+
+.MuiContainer-root {
+    max-width: 100rem;
+}
+
+.MuiContainer-maxWidthMd {
+    max-width: 70rem !important;
+}
+
+.select-basic .MuiOutlinedInput-root {
+    background: #F8F8F8;
+    filter: drop-shadow(0 0.1875rem 0.375rem lightgrey);
+}
+
+.select-basic fieldset {
+    border: none;
+}
+
+.select-basic .label {
+    margin-bottom: 0.35rem;
+}
+
+.MuiAutocomplete-endAdornment button.MuiButtonBase-root {
+    padding: 0;
+}
+
+.no-border .MuiOutlinedInput-notchedOutline {
+    border: 0 !important;
+}
+
+.no-border .MuiSelect-select {
+    padding: 0 !important;
+}
+
+.no-border .MuiSelect-icon {
+    opacity: 0.5;
+    top: -0.5rem !important;
+}
+
+#nav-content-color #filters-container--hero {
+    margin-bottom: 0;
+    height: 4rem;
+    padding: 0 1rem 0 2rem
+}
+
+.react-responsive-modal-modal {
+    display: block !important;
+    min-width: 20vw;
+    min-height: 20vh;
+    border-radius: 0.5rem;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.react-responsive-modal-closeButton svg {
+    fill: rgb(85, 84, 84);
+}
+
+.react-responsive-modal-closeButton {
+    outline: none;
+}
+
+div.modal-content-container--40rem {
+    max-width: 40rem;
+}
+
+div.modal-content-container--80 {
+    max-width: 80%;
+}
+
+div.modal-content-container--80 .modal-content {
+    padding-top: 0;
+}
+
+div.modal-content-container--80  .react-responsive-modal-closeButton {
+    display: none;
+}
+
+.MuiSkeleton-rectangular {
+    border-radius: 0.5rem;
+}

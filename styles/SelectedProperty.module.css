@@ -1,0 +1,80 @@
+.container-flex {
+    display: flex;
+    align-items: center;
+}
+
+.selected-property-background {
+    width: 100%;
+    background: #FAFAFA;
+    min-height: 100vh;
+    padding-bottom: 2rem;
+}
+
+.section-selected-property {
+    width: 100%;
+    height: 30rem;
+    min-height: 30rem;
+    background: #F0F0F0;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.selected-property--image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.cover-image {
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: -webkit-optimize-contrast;
+    width: 100%;
+    height: 30rem;
+    min-height: 30rem;
+    position: relative;
+    z-index: 1;
+    border-radius: 1rem;
+}
+
+.cover-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    border-radius: 1rem;
+    z-index: 2;
+}
+
+.cover-content {
+    z-index: 3;
+}
+
+.content {
+    margin-top: 2rem !important;;
+}
+
+.text {
+    text-transform: capitalize;
+    margin-top: 0.5rem !important;;
+}
+
+.large-marging-text {
+    margin-top: 1rem !important;
+}
+
+.divider {
+    margin: 2rem 0 !important;;
+}
+
+.divider-sm {
+    margin: 1.5rem 0 !important;;
+}
+
+.estate-logo {
+    width: 2rem;
+    border-radius: 0.5rem;
+    margin-left: auto;
+}

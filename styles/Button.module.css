@@ -1,0 +1,25 @@
+.container-flex-center {
+    display: flex;
+    align-items: center;
+}
+
+.MuiButtonGroup-root {
+    width: 100%;
+    display: flex;
+}
+
+.MuiButtonGroup-root > button {
+    flex: 1;
+}
+
+.count-buttons {
+    width: 100%;
+}
+
+.count-buttons .count-content {
+    margin-left: auto;
+}
+
+.count-buttons .count-content span {
+    margin: 0 1rem;
+}
